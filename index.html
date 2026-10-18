@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Datenschutz – Ablage</title>
+  <meta name="description" content="Datenschutzerklärung für die Mac-App „Ablage – Zwischenablage“">
+  <style>
+    :root {
+      color-scheme: light dark;
+      --text: #1d1d1f;
+      --muted: #6e6e73;
+      --background: #f5f5f7;
+      --card: #ffffff;
+      --line: rgba(0, 0, 0, 0.08);
+      --accent: #2f6bf0;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --text: #f5f5f7;
+        --muted: #a1a1a6;
+        --background: #000000;
+        --card: #1c1c1e;
+        --line: rgba(255, 255, 255, 0.1);
+        --accent: #5e9bff;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--background);
+      color: var(--text);
+      font: 17px/1.55 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif;
+      -webkit-font-smoothing: antialiased;
+    }
+    main { max-width: 720px; margin: 0 auto; padding: 56px 20px 72px; }
+    header { display: flex; align-items: center; gap: 16px; margin-bottom: 32px; }
+    header img { width: 64px; height: 64px; }
+    h1 { font-size: 34px; line-height: 1.15; letter-spacing: -0.02em; margin: 0; }
+    header p { margin: 4px 0 0; color: var(--muted); }
+    nav { margin-bottom: 28px; color: var(--muted); font-size: 15px; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    section {
+      background: var(--card);
+      border-radius: 18px;
+      padding: 24px 28px;
+      margin-bottom: 16px;
+      box-shadow: 0 0 0 1px var(--line);
+    }
+    h2 { font-size: 21px; letter-spacing: -0.01em; margin: 0 0 8px; }
+    h3 { font-size: 17px; margin: 20px 0 4px; }
+    p { margin: 0 0 10px; }
+    p:last-child { margin-bottom: 0; }
+    code { font: 15px ui-monospace, "SF Mono", Menlo, monospace; overflow-wrap: anywhere; }
+    .lead { font-size: 19px; }
+    footer { margin-top: 28px; color: var(--muted); font-size: 14px; text-align: center; }
+    @media (max-width: 480px) {
+      main { padding-top: 32px; }
+      h1 { font-size: 28px; }
+      section { padding: 20px; }
+    }
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <img src="icon.png" alt="" width="64" height="64">
+    <div>
+      <h1>Datenschutz</h1>
+      <p>Ablage – Zwischenablage für macOS</p>
+    </div>
+  </header>
+  <nav><a href="#de">Deutsch</a> · <a href="#en" lang="en">English</a></nav>
+
+  <div id="de">
+    <section>
+      <h2>Kurz gesagt</h2>
+      <p class="lead">Ablage erfasst keine personenbezogenen Daten, überträgt nichts ins Internet und enthält weder Werbung noch Analyse- oder Tracking-Werkzeuge.</p>
+    </section>
+
+    <section>
+      <h2>Verantwortlich</h2>
+      <p>Nico Schuler<br>E-Mail: <a href="mailto:UmlaufApp@proton.me">UmlaufApp@proton.me</a></p>
+    </section>
+
+    <section>
+      <h2>Welche Daten verarbeitet die App?</h2>
+      <p>Ablage ist ein Verlauf für die Zwischenablage. Damit das funktioniert, liest die App neue Inhalte der Zwischenablage deines Macs – Text, Links, Bilder und Verweise auf Dateien – sowie den Namen der App, aus der kopiert wurde. Diese Daten werden ausschließlich lokal auf deinem Mac gespeichert, im geschützten Datenordner der App (App-Sandbox), und sind nur für deinen Benutzer lesbar.</p>
+      <p>Inhalte aus Passwort-Apps sowie Inhalte, die von Apps als vertraulich gekennzeichnet sind, werden standardmäßig nicht gespeichert.</p>
+    </section>
+
+    <section>
+      <h2>Weitergabe</h2>
+      <p>Es findet keine Weitergabe an den Entwickler oder an Dritte statt. Die App baut keine Netzwerkverbindungen auf.</p>
+    </section>
+
+    <section>
+      <h2>Speicherdauer und Löschen</h2>
+      <p>Der Verlauf enthält höchstens so viele Einträge, wie du in den Einstellungen festlegst; ältere Einträge werden automatisch gelöscht. Einzelne Einträge oder den ganzen Verlauf kannst du jederzeit in der App löschen. Alle gespeicherten Daten liegen im Ordner <code>~/Library/Containers/de.ablage.Ablage</code> und lassen sich vollständig entfernen, indem du ihn löschst.</p>
+    </section>
+
+    <section>
+      <h2>Deine Rechte</h2>
+      <p>Da keine Daten aus der App beim Entwickler ankommen, liegen dort auch keine Daten über dich vor. Bei Fragen zum Datenschutz erreichst du uns unter der oben genannten E-Mail-Adresse.</p>
+    </section>
+
+    <section>
+      <h2>Diese Webseite</h2>
+      <p>Diese Seite wird über GitHub Pages bereitgestellt. Beim Aufruf verarbeitet GitHub technisch notwendige Daten wie deine IP-Adresse, um die Seite auszuliefern und vor Missbrauch zu schützen. Einzelheiten stehen in der <a href="https://docs.github.com/de/site-policy/privacy-policies/github-general-privacy-statement">Datenschutzerklärung von GitHub</a>. Diese Seite selbst verwendet keine Cookies und keine Analyse-Werkzeuge.</p>
+    </section>
+  </div>
+
+  <div id="en" lang="en">
+    <section>
+      <h2>Privacy in short</h2>
+      <p class="lead">Ablage collects no personal data, sends nothing to the internet and contains no ads, analytics or tracking.</p>
+    </section>
+
+    <section>
+      <h2>What the app processes</h2>
+      <p>Ablage keeps a history of your clipboard. To do so, it reads new clipboard contents – text, links, images and references to files – along with the name of the app you copied from. This data is stored only locally on your Mac, inside the app’s protected sandbox container, and is readable by your user account only. Content from password managers and content that apps mark as confidential is not saved by default.</p>
+      <p>Nothing is shared with the developer or any third party, and the app makes no network connections. You can delete single entries or the whole history in the app at any time; all data lives in <code>~/Library/Containers/de.ablage.Ablage</code> and is removed completely when you delete that folder.</p>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <p>For privacy questions, contact Nico Schuler at <a href="mailto:UmlaufApp@proton.me">UmlaufApp@proton.me</a>. This page is hosted on GitHub Pages; GitHub processes technical data such as your IP address to deliver it (see <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub’s privacy statement</a>). The page itself uses no cookies or analytics.</p>
+    </section>
+  </div>
+
+  <footer>Stand: Oktober 2026 · Last updated October 2026</footer>
+</main>
+</body>
+</html>
