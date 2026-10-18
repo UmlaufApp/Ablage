@@ -87,7 +87,7 @@
     <section>
       <h2>Welche Daten verarbeitet die App?</h2>
       <p>Ablage ist ein Verlauf für die Zwischenablage. Damit das funktioniert, liest die App neue Inhalte der Zwischenablage deines Macs – Text, Links, Bilder und Verweise auf Dateien – sowie den Namen der App, aus der kopiert wurde. Diese Daten werden ausschließlich lokal auf deinem Mac gespeichert, im geschützten Datenordner der App (App-Sandbox), und sind nur für deinen Benutzer lesbar.</p>
-      <p>Inhalte aus Passwort-Apps sowie Inhalte, die von Apps als vertraulich gekennzeichnet sind, werden standardmäßig nicht gespeichert.</p>
+      <p>Inhalte, die Apps als vertraulich kennzeichnen, und Kopien aus Passwort-Apps werden standardmäßig nicht gespeichert, soweit Ablage sie erkennen kann – aus Browser-Erweiterungen kopierte Passwörter nicht in jedem Fall.</p>
     </section>
 
     <section>
@@ -97,7 +97,7 @@
 
     <section>
       <h2>Speicherdauer und Löschen</h2>
-      <p>Der Verlauf enthält höchstens so viele Einträge, wie du in den Einstellungen festlegst; ältere Einträge werden automatisch gelöscht. Einzelne Einträge oder den ganzen Verlauf kannst du jederzeit in der App löschen. Alle gespeicherten Daten liegen im Ordner <code>~/Library/Containers/de.ablage.Ablage</code> und lassen sich vollständig entfernen, indem du ihn löschst.</p>
+      <p>Der Verlauf enthält höchstens so viele Einträge, wie du in den Einstellungen festlegst; ältere Einträge werden automatisch gelöscht. Einzelne Einträge oder den ganzen Verlauf kannst du jederzeit in der App löschen. Der Datenordner ist von Time-Machine-Backups ausgenommen. Alle gespeicherten Daten liegen im Ordner <code>~/Library/Containers/de.ablage.Ablage</code> und lassen sich vollständig entfernen, indem du ihn löschst.</p>
     </section>
 
     <section>
@@ -119,8 +119,8 @@
 
     <section>
       <h2>What the app processes</h2>
-      <p>Ablage keeps a history of your clipboard. To do so, it reads new clipboard contents – text, links, images and references to files – along with the name of the app you copied from. This data is stored only locally on your Mac, inside the app’s protected sandbox container, and is readable by your user account only. Content from password managers and content that apps mark as confidential is not saved by default.</p>
-      <p>Nothing is shared with the developer or any third party, and the app makes no network connections. You can delete single entries or the whole history in the app at any time; all data lives in <code>~/Library/Containers/de.ablage.Ablage</code> and is removed completely when you delete that folder.</p>
+      <p>Ablage keeps a history of your clipboard. To do so, it reads new clipboard contents – text, links, images and references to files – along with the name of the app you copied from. This data is stored only locally on your Mac, inside the app’s protected sandbox container, and is readable by your user account only. Content that apps mark as confidential and copies from password managers are not saved by default, as far as Ablage can detect them – passwords copied from browser extensions not in every case.</p>
+      <p>Nothing is shared with the developer or any third party, and the app makes no network connections. You can delete single entries or the whole history in the app at any time; all data lives in <code>~/Library/Containers/de.ablage.Ablage</code> and is removed completely when you delete that folder. The data folder is excluded from Time Machine backups.</p>
     </section>
 
     <section>
